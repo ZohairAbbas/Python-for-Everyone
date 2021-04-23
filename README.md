@@ -29,3 +29,12 @@ You'll find all the code files here, which we'll use in our workshop
 |Installer Screen:3 |Installer Screen:4|
 |--|--|
 |![Installer Screen:3](https://github.com/Nabeel110/DSC-Data-Analytics-Workshops/blob/main/Session-1(Day-1)/Screenshots/page_3.JPG)|  ![Installer Screen:4](https://github.com/Nabeel110/DSC-Data-Analytics-Workshops/blob/main/Session-1(Day-1)/Screenshots/page_4.JPG)|
+
+## 📝 License
+
+Copyright © 2021 [Zohair Abbas](https://github.com/ZohairAbbas)<br />
+This project is [MIT](https://github.com/ZohairAbbas/blob/master/LICENSE) licensed.
+
+---
+
+_With ❤️ by [Zohair](https://github.com/ZohairAbbas)_
