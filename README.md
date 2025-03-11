@@ -1,9 +1,8 @@
-# Python From Bits 🐍
-Welcome to "Python From Bits", a series of Python Workshops organized by IBA Computer Science Society.
+# Python for Everyone 🐍
+🚀 Welcome to "Python for Everyone"! 🐍✨ <br>
+Get ready to dive into the world of Python with this dynamic, hands-on Bootcamp designed for enthusiasts of all levels. Whether you're a beginner or a coding pro, this is your chance to level up, build amazing projects, and join a community of passionate learners. Let’s code, create, and innovate together! 🔥💡
 
-You'll find all the code files here, which we'll use in our workshop
-
-## What you gonna learn in these workshops?
+## What you gonna learn in this Bootcamp?
 
 1. Data Types
 2. Variables
@@ -11,29 +10,6 @@ You'll find all the code files here, which we'll use in our workshop
 4. Conditional Statements
 5. Loops
 6. Function
-
-### The best part? This workshop will end with a final hands-on project!
-
-## Installation Process
-
-1- Click the link below and install the 64-bit Graphical Installer for Windows / MacOS 
-
-[Download Anaconda](https://www.anaconda.com/products/individual)
-
-2- Follow the installation steps given below:
-
-|Installer Screen:1|Installer Screen:2|
-|--|--|
-| ![Installer Screen:1](https://github.com/Nabeel110/DSC-Data-Analytics-Workshops/blob/main/Session-1(Day-1)/Screenshots/page_1.JPG)|  ![Installer Screen:2](https://github.com/Nabeel110/DSC-Data-Analytics-Workshops/blob/main/Session-1(Day-1)/Screenshots/page_2.JPG)| 
-
-|Installer Screen:3 |Installer Screen:4|
-|--|--|
-|![Installer Screen:3](https://github.com/Nabeel110/DSC-Data-Analytics-Workshops/blob/main/Session-1(Day-1)/Screenshots/page_3.JPG)|  ![Installer Screen:4](https://github.com/Nabeel110/DSC-Data-Analytics-Workshops/blob/main/Session-1(Day-1)/Screenshots/page_4.JPG)|
-
-## 📝 License
-
-Copyright © 2021 [Zohair Abbas](https://github.com/ZohairAbbas)<br />
-This project is [MIT](https://github.com/ZohairAbbas/blob/master/LICENSE) licensed.
 
 ---
 
