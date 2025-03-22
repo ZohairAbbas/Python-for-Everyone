@@ -1,0 +1,93 @@
+Exercise 1: Shopping List Calculator
+Topics Covered: Lists, Input, Arithmetic Operators, Strings, Print, Type Casting
+
+Task:
+
+Write a program that:
+
+- Asks the user to input the names and prices of 3 items (names as strings, prices as strings converted to floats using type casting).
+- Stores these in a list of sublists, e.g., [["apple", 0.5], ["bread", 1.2], ["milk", 2.0]].
+- Calculates the total cost by directly accessing list elements (e.g., list[0][1] + list[1][1] + list[2][1]) with arithmetic operators.
+- Prints each item and its price (e.g., "Item: apple - Price: $0.50") and the total cost in a formatted way using the print() function.
+
+Bonus Challenge:
+Ask the user for a tax rate (e.g., 5%) as input, convert it to a float, and add the tax amount to the total (tax = total * (rate / 100)).
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Exercise 2: Student Grade Manager
+Topics Covered: Lists, List Methods, Indexing, Input, Type Casting, Variables, Print
+
+Task:
+
+Write a program that:
+
+- Creates a list called grades with exactly 3 predefined scores (e.g., [85.5, 90.0, 78.5]).
+- Asks the user to input 1 additional score (as a string, converted to a float) and adds it to the list using the append() method.
+- Uses indexing to print the first score (grades[0]) and the last score (grades[-1]).
+- Calculates the average of the 4 scores by adding them with arithmetic operators and dividing by 4.
+- Uses the sort() method to sort the list and prints the sorted list.
+
+Bonus Challenge:
+Use the insert() method to add a bonus score of 5.0 at the start of the list and print the updated list.
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Exercise 3: Word Slicer
+Topics Covered: Strings, Lists, Slicing, Indexing, Input, Print, Datatypes
+
+Task:
+
+Write a program that:
+
+- Asks the user to input a sentence with at least 4 words (e.g., "I love to code").
+- Converts the sentence into a list of words using the split() method.
+- Uses slicing to print:
+- The first 2 words (e.g., words[0:2]).
+- The last 2 words (e.g., words[-2:]).
+- Uses indexing to print the third word (e.g., words[2]).
+- Prints the total number of words using len() and the datatype of the list using type().
+
+Bonus Challenge:
+Create a new string by concatenating the first and last words from the list (e.g., "I code") and print it.
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Exercise 4: Budget Tracker
+Topics Covered: Lists, List Methods, Arithmetic Operators, Input, Type Casting, Variables, Print
+
+Task:
+
+Write a program that:
+
+- Initializes a list called expenses with 3 values (e.g., [25.5, 10.0, 15.75]).
+- Asks the user to input 1 more expense (as a string, converted to a float) and adds it to the list using append().
+- Calculates the total by adding the elements (expenses[0] + expenses[1] + expenses[2] + expenses[3]) and the average (total / 4).
+- Uses the insert() method to add a fixed expense of $5.00 at index 0.
+- Prints the updated list, total, and average with formatted output.
+
+Bonus Challenge:
+Use slicing to print the last 3 expenses (expenses[-3:]) and calculate their sum separately.
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Exercise 5: Name Analyzer
+Topics Covered: Strings, Lists, Slicing, Indexing, Input, Print, List Methods
+
+Task:
+
+Write a program that:
+
+- Asks the user to input a full name with exactly 3 parts (e.g., "John Adam Smith").
+- Splits the name into a list of individual names using split().
+- Uses indexing to print the first name (names[0]) and last name (names[-1]).
+- Uses slicing to print the middle name (names[1:2]).
+- Creates a new list with the lengths of each name (e.g., [len(names[0]), len(names[1]), len(names[2])]) and prints it.
+- Calculates and prints the total number of characters by adding the lengths.
+
+Bonus Challenge:
+Use the pop() method to remove the middle name and print the updated list (e.g., ["John", "Smith"]).
