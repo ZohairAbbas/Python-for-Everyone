@@ -91,3 +91,97 @@ Write a program that:
 
 Bonus Challenge:
 Use the pop() method to remove the middle name and print the updated list (e.g., ["John", "Smith"]).
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Exercise 6: Assignment Auto Grader
+Topics Covered: Input, Conditions
+
+Task:
+So your task is to make an assignment auto grader, which will be a program that asks users their percentage and, based on the percentage, prints their Grade, i.e., A+, A, B, C, and F. The threshold of the grades can be decided by you, e.g, you can choose to give A+ over 90 or 90+
+
+_________________________________________________________________________________
+
+Exercise 7: Number Guessing Game
+Topics Covered: While Loop, Input, Variables, Arithmetic Operators, Print, Type Casting
+
+Task:
+
+Write a program that:
+
+Sets a secret number (e.g., 42) as a variable.
+Asks the user to guess the number (input as a string, converted to an integer).
+Uses a while loop to keep asking for guesses until the user guesses correctly.
+After each guess, prints a message saying whether the guess was too high or too low (e.g., "Too high! Try again.").
+When the correct number is guessed, prints a congratulations message and the number of attempts it took.
+
+Bonus Challenge:
+Add a maximum number of attempts (e.g., 5), and if the user runs out of attempts, print a "Game Over" message with the secret number.
+
+_________________________________________________________________________________
+
+Exercise 8: Sum Until Stop
+Topics Covered: While Loop, Input, Variables, Arithmetic Operators, Print, Type Casting
+
+Task:
+
+Write a program that:
+
+Initializes a variable total to 0.
+Asks the user to input numbers (converted from strings to floats) one at a time.
+Uses a while loop to keep adding the numbers to total until the user enters a negative number.
+Prints the final total (excluding the negative number).
+
+Bonus Challenge:
+Also print the count of numbers entered (excluding the negative one).
+
+_________________________________________________________________________________
+
+Exercise 9: List Builder
+Topics Covered: While Loop, Input, Lists, List Methods, Print, Strings
+
+Task:
+
+Write a program that:
+
+Creates an empty list called items.
+Asks the user to input item names (as strings).
+Uses a while loop to keep adding items to the list with append() until the user types "done".
+Prints the final list and its length.
+
+Bonus Challenge:
+After the list is built, use slicing to print the first half of the list (e.g., if the list has 6 items, print the first 3).
+
+_________________________________________________________________________________
+
+Exercise 10: Reverse Number Printer
+Topics Covered: While Loop, Variables, Arithmetic Operators, Print
+
+Task:
+
+Write a program that:
+
+Sets a variable number to 10 (or any positive integer).
+Uses a while loop to print the numbers from number down to 1 (e.g., 10, 9, 8, ..., 1).
+Decrements number by 1 each time through the loop.
+Stops when number reaches 0 and prints "Done!".
+
+Bonus Challenge:
+Modify the program to only print even numbers (e.g., 10, 8, 6, 4, 2).
+
+_________________________________________________________________________________
+
+Exercise 11: Word Length Collector
+Topics Covered: While Loop, Input, Lists, Strings, Print, Indexing
+
+Task:
+
+Write a program that:
+
+Creates an empty list called word_lengths.
+Asks the user to input words (as strings) one at a time.
+Uses a while loop to add the length of each word to word_lengths until the user enters an empty string (just presses Enter).
+Prints the list of lengths and the total number of characters across all words (sum of the lengths).
+
+Bonus Challenge:
+Use indexing to print the length of the first and last words entered (excluding the empty string).
