@@ -132,3 +132,196 @@ print("Total characters:", total_chars)
 # Bonus: Remove middle name and print updated list
 names.pop(1)
 print("List after removing middle name:", names)
+
+# ----------------------------------------------------------------------------------------------------------------------------
+
+# Exercise 6: Number Guessing Game
+
+# Main task
+secret_number = 42
+attempts = 0
+
+# Get initial guess
+guess = int(input("Guess the number (1-100): "))
+attempts = attempts + 1
+
+# Keep asking until correct
+while guess != secret_number:
+    if guess > secret_number:
+        print("Too high! Try again.")
+    else:
+        print("Too low! Try again.")
+    guess = int(input("Guess the number (1-100): "))
+    attempts = attempts + 1
+
+# Print result
+print("Congratulations! You guessed the number:", secret_number)
+print("It took you", attempts, "attempts.")
+
+# Bonus: With max attempts
+secret_number = 42
+attempts = 0
+max_attempts = 5
+
+# Get initial guess
+guess = int(input("Guess the number (1-100, 5 attempts max): "))
+attempts = attempts + 1
+
+# Keep asking until correct or max attempts reached
+while guess != secret_number and attempts < max_attempts:
+    if guess > secret_number:
+        print("Too high! Try again.")
+    else:
+        print("Too low! Try again.")
+    guess = int(input("Guess the number (1-100): "))
+    attempts = attempts + 1
+
+# Check if they won or lost
+if guess == secret_number:
+    print("Congratulations! You guessed the number:", secret_number)
+    print("It took you", attempts, "attempts.")
+else:
+    print("Game Over! The number was", secret_number)
+
+
+# ----------------------------------------------------------------------------------------------------------------------------
+    
+# Exercise 7: Sum Until Stop
+    
+# Main task
+total = 0.0
+
+# Get first number
+number = float(input("Enter a number (negative to stop): "))
+
+# Keep adding until a negative number
+while number >= 0:
+    total = total + number
+    number = float(input("Enter a number (negative to stop): "))
+
+# Print result
+print("Total sum:", total)
+
+# Bonus: Include count
+total = 0.0
+count = 0
+
+# Get first number
+number = float(input("Enter a number (negative to stop): "))
+
+# Keep adding and counting until a negative number
+while number >= 0:
+    total = total + number
+    count = count + 1
+    number = float(input("Enter a number (negative to stop): "))
+
+# Print results
+print("Total sum:", total)
+print("Number of values entered:", count)
+
+# ----------------------------------------------------------------------------------------------------------------------------
+
+# Exercise 8: List Builder
+
+# Main task
+items = []
+
+# Get first item
+item = input("Enter an item (type 'done' to stop): ")
+
+# Keep adding until 'done'
+while item != "done":
+    items.append(item)
+    item = input("Enter an item (type 'done' to stop): ")
+
+# Print results
+print("Final list:", items)
+print("Number of items:", len(items))
+
+# Bonus: Print first half
+items = []
+
+# Get first item
+item = input("Enter an item (type 'done' to stop): ")
+
+# Keep adding until 'done'
+while item != "done":
+    items.append(item)
+    item = input("Enter an item (type 'done' to stop): ")
+
+# Print results
+print("Final list:", items)
+print("Number of items:", len(items))
+
+# Print first half using slicing
+half_index = len(items) // 2
+print("First half of list:", items[0:half_index])
+
+# ----------------------------------------------------------------------------------------------------------------------------
+
+# Exercise 9: Reverse Number Printer
+
+# Main task
+number = 10
+
+# Print numbers down to 1
+while number > 0:
+    print(number)
+    number = number - 1
+
+# Print done
+print("Done!")
+
+# Bonus: Print only even numbers
+number = 10
+
+# Print even numbers down to 2
+while number > 0:
+    if number % 2 == 0:
+        print(number)
+    number = number - 1
+
+# Print done
+print("Done!")
+
+# ----------------------------------------------------------------------------------------------------------------------------
+
+# Exercise 10: Word Length Collector
+
+# Main task
+word_lengths = []
+
+# Get first word
+word = input("Enter a word (press Enter to stop): ")
+
+# Keep adding lengths until empty string
+while word != "":
+    word_lengths.append(len(word))
+    word = input("Enter a word (press Enter to stop): ")
+
+# Calculate total characters
+total_chars = word_lengths[0] + word_lengths[1] + word_lengths[2] if len(word_lengths) >= 3 else 0
+
+# Print results
+print("Word lengths:", word_lengths)
+print("Total characters:", total_chars)
+
+# Bonus: Include first and last word lengths
+word_lengths = []
+
+# Get first word
+word = input("Enter a word (press Enter to stop): ")
+
+# Keep adding lengths until empty string
+while word != "":
+    word_lengths.append(len(word))
+    word = input("Enter a word (press Enter to stop): ")
+
+# Calculate total characters
+total_chars = word_lengths[0] + word_lengths[1] + word_lengths[2] if len(word_lengths) >= 3 else 0
+
+# Print results
+print("Word lengths:", word_lengths)
+print("Total characters:", total_chars)
+print("First word length:", word_lengths[0])
+print("Last word length:", word_lengths[-1])
